@@ -1,5 +1,5 @@
 main{
-    background-image: url(/Images/bg-repeat.jpg);
+    background-image: url(../Images/bg-repeat.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
