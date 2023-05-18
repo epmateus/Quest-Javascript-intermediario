@@ -24,6 +24,7 @@ main{
 }
 
 .formulario{
+    position: relative;
     background-color: #fff;
     max-width: 34rem;
     padding: 21px;
@@ -56,11 +57,13 @@ textarea::placeholder{
     font-weight: 700;
     border-style: none;
     cursor: pointer;
-    margin: 20px 0 0 0;
+    margin: 45px 0 0 0;
 }
 
 .observacao{
     font-size: 15px;
+    position: absolute;
+    left: 15px;
 }
 
 .invalido{
@@ -70,6 +73,7 @@ textarea::placeholder{
 
 .valido{
     border-color: #00C22B;
+    margin-bottom: 15px;
 }
 
 .campo-obrigatorio{
