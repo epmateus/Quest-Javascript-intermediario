@@ -1,23 +1,16 @@
-const inputs = document.querySelectorAll(".inputs")
 const enviar = document.getElementById("submit")
-const erro = document.getElementsByClassName("mensagem-erro")
-
-inputs.forEach(function(input){
-    if(input == undefined){
-        input.classList.add("valido");
-    } else{
-        input.classList.remove("valido");
-    }
-})
+const infos = document.querySelectorAll(".inputs")
+const camposObrigatorios = document.querySelectorAll(".campo-obrigatorio")
 
 enviar.addEventListener("click", function(){
-    inputs.forEach(function(){
-        if(inputs == null){
-            inputs.classList.add("invalido");
-            erro.style.display = "block";
+    infos.forEach(function(input, indice){
+        if(input.value === ""){
+            input.classList.add("invalido");
+            camposObrigatorios[indice].classList.add("campo-obrigatorio");
+            camposObrigatorios[indice].style.display = 'block';
         } else{
-            inputs.classList.add("valido");
-            erro.style.display = "none";
+            input.classList.add("valido");
+            camposObrigatorios[indice].classList.remove("campo-obrigatorio")
         }
     })
 })

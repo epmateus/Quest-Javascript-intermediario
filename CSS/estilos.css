@@ -59,7 +59,7 @@ textarea::placeholder{
     margin: 20px 0 0 0;
 }
 
-.campos-obrigatorios{
+.observacao{
     font-size: 15px;
 }
 
@@ -72,7 +72,7 @@ textarea::placeholder{
     border-color: #00C22B;
 }
 
-.mensagem-erro{
+.campo-obrigatorio{
     display: none;
     color: #F52E2E;
     font-size: 8px;
