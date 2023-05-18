@@ -26,7 +26,7 @@ main{
 .formulario{
     position: relative;
     background-color: #fff;
-    max-width: 34rem;
+    width: 34rem;
     padding: 21px;
 }
 
@@ -81,4 +81,55 @@ textarea::placeholder{
     color: #F52E2E;
     font-size: 8px;
     padding-bottom: 15px;
+}
+
+
+/* /////// RESPONSIVIDADE //////// */
+
+@media (max-width:720px){
+    main{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .duvidas{
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .duvidas h2{
+        font-size: 15px;
+    }
+
+    .duvidas p{
+        font-size: 12px;
+    }
+
+    .duvidas h2, p{
+        text-align: center;
+    }
+
+    .formulario{
+        background-color: transparent;
+        padding: 0;
+    }
+
+    #submit{
+        margin: 25px 0 0 0;
+    }
+
+    .campo-obrigatorio{
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width:350px){
+    main{
+        padding: 0 10px;
+    }
+
+    .duvidas, .formulario{
+        max-width: 95%;
+    }
 }
