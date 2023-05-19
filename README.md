@@ -1,7 +1,6 @@
 #  <h1 align="center"> Quest Javascript Intermediario </h1>
 
-<p align="center">![Formulario-Quest](https://github.com/epmateus/Quest-Javascript-intermediario/assets/97775852/b35320ff-e5bf-47b8-be16-e8bb24dbc63f)
-</p>
+<img> ![imagem do projeto formulário com validação em javascript](https://github.com/epmateus/Quest-Javascript-intermediario/assets/97775852/99b2e1da-9f26-41a4-9de0-7471d2074cd7) </img>
 
 <img src="https://img.shields.io/badge/Status-Finalizado-brightgreen"/>
 
