@@ -1,7 +1,6 @@
 #  <h1 align="center"> Quest Javascript Intermediario </h1>
 
-<p align="center">
-  
+<p align="center">![Formulario-Quest](https://github.com/epmateus/Quest-Javascript-intermediario/assets/97775852/b35320ff-e5bf-47b8-be16-e8bb24dbc63f)
 </p>
 
 <img src="https://img.shields.io/badge/Status-Finalizado-brightgreen"/>
