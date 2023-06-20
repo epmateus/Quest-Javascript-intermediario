@@ -5,9 +5,9 @@
 <img src="https://img.shields.io/badge/Status-Finalizado-brightgreen"/>
 
 A proposta do projeto faz parte do curso DevQuest.
-As Quests são desafios que os criadores do curso colocaram para testar os conhecimentos aquiridos nos respectivos módulo,
+As Quests são desafios que os criadores do curso colocaram para testar os conhecimentos aquiridos nos respectivos módulos,
 diferente das demais atividades, o aluno faz por conta própria, sem contar com nenhum vídeo demonstrando a maneira de como
-realizar o projeto, apenas recebendo as tarefas, com pequenas instruções e, caso o aluno fica estagnado, tendo a opção de pedir dicas
+realizar o projeto, apenas recebendo as tarefas, com pequenas instruções e, caso o aluno fique estagnado, tendo a opção de pedir dicas
 para os monitores do curso.
 O desafio em específico se trata de um formulário com validação em Javascript.
 
